@@ -1,5 +1,2 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^spacemine.store$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.spacemine.store$
-RewriteCond %{REQUEST_URI} !public/
-RewriteRule (.*) /public/$1 [L]
+RewriteRule ^$ public/ [L]
