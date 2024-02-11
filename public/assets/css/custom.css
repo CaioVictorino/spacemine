@@ -1,0 +1,183 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* 'Montserrat', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); /* 'Oswald', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap'); /* 'Maven', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+
+/*Configurações personalidas de CSS*/
+
+html > * {
+     font-family: 'Prompt', sans-serif !important;
+     min-width: 360px !important;
+     max-height: 100% !important;
+}
+
+body {
+     max-height: 100% !important;
+     overflow-y: hidden;
+}
+
+aside{
+}
+
+.main-sidebar{
+     background-color: white;
+     height: 100% !important;
+
+}
+
+.brand-link{
+     min-height: 57px !important;
+     height: 57px !important;
+     padding: 0px 0px !important;
+     z-index: 2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.brand-img{
+     color: #DA9A05 !important;
+     width: 100% !important;
+     position: relative;
+     background-repeat: no-repeat;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+.brand-link{
+     border-bottom: 1px rgb(240, 240, 240) solid !important;
+}
+
+.user-panel{
+     background-color: white !important;
+     border-bottom: 1px rgb(240, 240, 240) solid !important;
+}
+
+.username{
+     margin-left: auto;
+     margin-right: auto;
+     color: #FF3F4F !important;
+     white-space: inherit;
+     text-overflow: ellipsis !important;
+     font-size: 100%;
+     font-weight: 500;
+     position: relative;
+}
+
+
+.nav-item .nav-link{
+     color: #1F3544 !important;
+     font-weight: 500 !important;
+}
+
+.sb-icon{
+     color: #FF3F4F;
+}
+
+.nav-item:hover .nav-link:hover{
+     background-color: #E8F1FF !important;
+     color: #3B0000 !important;
+}
+
+.nav-link .active{
+     background-color: orange !important;
+}
+
+
+/* Topbar CSS Style*/
+
+.main-header{
+     z-index: 2;
+}
+
+#logoutIcon{
+     background-color: transparent !important;
+     color: #1F3544;
+}
+
+#logoutIcon:hover .fa-solid{
+     background-color: transparent !important;
+     color: red;
+}
+
+#toggleIcon{
+     background-color: transparent !important;
+     color: #1F3544;
+}
+
+#toggleIcon:hover .toggleBtn{
+     background-color: transparent !important;
+     color: #488EF6;
+}
+
+/* CSS Others Styles */
+
+a i {
+     width: 25px !important;
+     max-width: 25px !important;
+}
+
+.content-wrapper{
+     padding: 1% !important;
+     background-color: white;
+     /*
+     background-image: url('../../../public/storage/images/backadmin2.png');
+     */
+     background-size: cover;
+     background-repeat: no-repeat;
+     max-height: 70vh;
+     overflow-y: scroll;
+}
+
+.card-body{
+     background-color: #FDFDFD !important;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.labels{
+     color: #1F3544;
+     word-wrap: break-word;
+}
+
+#loginImg{
+     width: 100% !important;
+}
+
+#loginBtn{
+     color: white !important;
+     font-weight: 700;
+     font-size: 0.9em;
+}
+
+#toggleSb{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.pTitle{
+     background-color: #FF3F4F;
+     color:white !important;
+     min-height: 50px;
+     display: flex;
+     align-items: center;
+     margin-bottom: 30px;
+     font-weight: 500;
+     border-left: 10px solid black;
+}
+
+.card-header{
+     background-color: #212529;
+     color: white;
+}
+
+.btn-register{
+     border-left: 5px solid black;
+}
+
+.btn-register:hover{
+     border-left: 5px solid red;
+}
